@@ -1,7 +1,7 @@
 var express=require('express');
 var cors=require('cors');
 var bodyParser=require('body-parser');
-var port=process.env.PORT || 8000;
+var port=process.env.PORT || 5000 || 3000 || 4000;
 var ip=process.env.IP;
 var app=express();
 
