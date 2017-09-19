@@ -15,7 +15,7 @@ dateButton.addEventListener('click',function(){
 
   var fullDate=monthsValue+' '+daysValue+', '+yearsValue;
 
-  window.open('http://localhost:3000/home/'+fullDate);
+  window.open('https://stormy-mountain-11407.herokuapp.com/home/'+fullDate);
 
 
 
@@ -26,7 +26,7 @@ unixButton.addEventListener('click',function(){
   if(!Number(stuffUnix.value)){
     alert('Please fill in the field with only numeric numbers');
   }else{
-    window.open('http://localhost:3000/home/'+stuffUnix.value);
+    window.open('https://stormy-mountain-11407.herokuapp.com/home/'+stuffUnix.value);
   }
 
 
